@@ -9,10 +9,10 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 let myFoods = ['pizza', 'steak', 'popcorn', 'tacos'];
-console.log('My favorite foods are: ', myFoods);
+
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-
+console.log('My favorite foods are: ', myFoods);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -38,7 +38,7 @@ console.log('The last animal is', animalArray [3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-console.log('The last animal is', animalArray.slice(-1));
+console.log('The last animal is', animalArray.at(-1));
 
 
 // 4. Adding & Removing Array Items
@@ -78,16 +78,16 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
-myFoods.shift();
-console.log(myFoods);
+removedFood = myFoods.shift();
+console.log('Removed the first food', removedFood);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
 myFoods[1] = 'brisket';
+console.log(myFoods);
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 myFoods.sort();
-console.log(myFoods);
 myFoods.reverse();
 console.log(myFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
