@@ -69,7 +69,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 myFoods.unshift('chicken');
-console.log(myFoods);
+console.log(`Added a food to the beginning: ${myFoods}`);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
@@ -94,8 +94,14 @@ console.log(myFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+myFoods.toString();
+console.log(myFoods.join(' and ' ));
+
+
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+const bothArrays = animalArray.concat(myFoods);
+console.log(bothArrays);
