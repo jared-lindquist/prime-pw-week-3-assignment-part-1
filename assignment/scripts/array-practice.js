@@ -1,15 +1,15 @@
-console.log('****** Array Practice *******');
+//console.log('****** Array Practice *******');
 
 // 1. Creating arrays
-console.log('--- 1. Practice creating arrays ---');
+//console.log('--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-
-
+let myFoods = ['pizza', 'steak', 'popcorn', 'tacos'];
+console.log('My favorite foods are: ', myFoods);
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
@@ -22,7 +22,7 @@ console.log('--- 2. Length of an array ---');
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log('Number of foods:', myFoods.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -31,10 +31,10 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-
+console.log('Second animal is', animalArray [1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-
+console.log('The last animal is', animalArray [3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
